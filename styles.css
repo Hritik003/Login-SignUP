@@ -1,11 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mukta+Mahee:wght@200;300&family=Ubuntu:wght@300&display=swap');
+
+
+
+
+
+
+
+
 body{
-  margin-left: 40px;
-  margin-top: 40px;
+   background-color:  green;
+  font-family: 'Mukta', sans-serif;
+  margin: 1% 8%;
+
+
 }
 
-.Login{
-  position: absolute;
-  right: 10%;
-  top: 30% 
 
+/* navbar */
+#NavBar{
+  background-color: #7289da;
+  color: white;
+  margin-top: 0px;
+  border-radius: 70px;
+}
+.nav-item {
+  /* padding-left:20px; */
+  padding-right: 25px;
+  color: white;
+
+}
+
+
+/* login */
+
+#top-icon{
+  color: #eee;
+  font-size: 60px;
+  text-align: center;
+}
+
+form .Username, .Password {
+      background: rgba(255, 255, 255, 0.15);
+
+      padding-bottom: 25px;
+      width:294px;
+      height: 40px;
+      border-radius: 35px;
+      margin:auto;
+      margin-bottom: 30px;
+
+
+}
+
+form .Username{
+  margin-top: 20px;
+}
+
+form .Username-field, .Password-field {
+      display: inline-block;
+
+}
+form .Username span{
+
+  color: #fff;
+  background: transparent;
+  line-height: 49px;
+  text-align: right;
+  width:32px;
+
+}
+
+form .Password span{
+  color: #fff;
+  background: transparent;
+  line-height: 49px;
+  text-align: right;
+  width:32px;
+}
+.Username input {
+    padding: 10px 0 10px 15px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    outline: none;
+}
+
+.Password input{
+  padding: 10px 0 10px 15px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: transparent;
+  box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+  width: 100%;
+  outline: none;
+
+}
+
+.showPassword{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 85px;
+  margin-bottom: 20px;
+  padding: 10px 0 10px 15px;
+  font-family: 'Mukta', sans-serif;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ #login{
+   padding: 0em 4em;
+   margin: 0 1em;
+   position: relative;
+   z-index: 1;
+
+
+
+
+}
+.Login{
+  margin-top: 6%;
+  text-align: center;
+  left:50%;
+  top:50%;
+
+}
+.submit{
+  width:294px;
+  background-color: #7289da;
+  border: none;
+  border-radius: 35px;
+  font-size: 17px;
+}
+
+.submit:hover{
+  background-color: #4f5f98;
+}
+
+#submit {
+  box-shadow: 3px 5px #424549;
+}
+
+  .Login-list{
+  margin-top:1.5rem;
+  margin-bottom:1rem;
+  color: #fff;
+}
+
+.text-left, .text-right{
+  display: inline-block;
+
+}
+
+.text-left{
+  margin-left: 0px;
+}
+
+.text-right{
+  margin-right: 0px;
 }
