@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mukta+Mahee:wght@200;300&family=Ubuntu:wght@300&display=swap');
 
-
-
-
-
-
-
-
 body{
-   background-color:  green;
+  background: url("https://demo.w3layouts.com/demos_new/template_demo/27-02-2019/key-demo_Free/282453819/web/images/bg.jpg");
+  background-size:cover;
+  background-color: rgba(255,255,255,0.6);
+
   font-family: 'Mukta', sans-serif;
   margin: 1% 8%;
-
-
+  overflow:hidden
+}
+a{
+  text-decoration: none !important;
 }
 
 
 /* navbar */
 #NavBar{
-  background-color: #7289da;
+  background-color: transparent;
   color: white;
   margin-top: 0px;
   border-radius: 70px;
 }
+
+.navbar-light .navbar-nav .nav-link , h2 {
+  color: #f3f3f3;
+}
+
 .nav-item {
   /* padding-left:20px; */
   padding-right: 25px;
@@ -42,7 +45,8 @@ body{
 form .Username, .Password {
       background: rgba(255, 255, 255, 0.15);
 
-      padding-bottom: 25px;
+      padding-bottom: 50px;
+      padding-top: 4px;
       width:294px;
       height: 40px;
       border-radius: 35px;
@@ -129,19 +133,18 @@ form .Password span{
    margin: 0 1em;
    position: relative;
    z-index: 1;
-
-
-
-
 }
 .Login{
-  margin-top: 6%;
+  margin-top: 10%;
   text-align: center;
   left:50%;
   top:50%;
 
 }
 .submit{
+  color: #fff;
+  padding-bottom: 12px;
+  padding-top: 15px;
   width:294px;
   background-color: #7289da;
   border: none;
@@ -168,10 +171,90 @@ form .Password span{
 
 }
 
-.text-left{
-  margin-left: 0px;
+ .text-left{
+  float: left;
+  margin-left: 41.5%;
+
+}
+.center{
+  display: inline-block;
+}
+.center input[type = "checkbox"]
+{
+  position: relative;
+  width:30px;
+  height:15px;
+  appearance:none;
+  background-color: #c6c6c6;
+  border-radius:10px;
+  outline:none;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  transition: 0.1s;
 }
 
+.center input:checked[type="checkbox"]
+{
+  background: #7289da;
+}
+
+.center input[type="checkbox"]:before
+{
+  content:'';
+  margin-top: 2.5px;
+  margin-left:2.5px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:10px;
+  height:10px;
+  background: #fff;
+  border-radius:50%;
+  transform:scale(1.1);
+  transition:0.3s;
+}
+.center input:checked[type="checkbox"]:before
+{
+  left:15px;
+}
+
+
 .text-right{
-  margin-right: 0px;
+
+}
+
+
+
+/* footer */
+.links{
+  margin-top:4%;
+}
+
+
+ul.links li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul.links li a{
+  color: #c0c6c9;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding: 0 5px;
+  text-transform: capitalize;
+
+}
+
+.copyright{
+  display:inline;
+}
+.copyright p, a{
+
+  color: #c0c6c9;
+  /* font-weight: normal;
+  letter-spacing: 1px;
+  padding: 0 5px;
+  text-transform: capitalize; */
+
+
+
 }
