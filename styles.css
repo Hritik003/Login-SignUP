@@ -81,6 +81,11 @@ form .Password span{
   text-align: right;
   width:32px;
 }
+
+.signup{
+  color: #fff;
+  font-family: 'Mukta', sans-serif;
+}
 .Username input {
     padding: 10px 0 10px 15px;
     font-size: 17px;
